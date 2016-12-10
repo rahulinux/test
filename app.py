@@ -11,7 +11,7 @@ def home():
 
 @app.route('/demo')
 def demo():
-    return "DEMO PAGE"
+    return "<h1>DEMO TEST PAGE</h1>"
 
 
 if __name__ == '__main__':
